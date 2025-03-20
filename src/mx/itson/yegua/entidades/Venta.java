@@ -113,6 +113,7 @@ public class Venta {
     }
     /**
      * Se cean objetos sobre la Venta para el Main con un Encapsulado get/set
+     * Se agrega una List<> de los Articulos
      * author Daniel
      */
     private String cliente;
