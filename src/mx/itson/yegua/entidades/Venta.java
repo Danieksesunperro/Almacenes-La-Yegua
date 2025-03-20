@@ -111,7 +111,10 @@ public class Venta {
     public void setArticulos(List<Articulo> articulos) {
         this.articulos = articulos;
     }
-    
+    /**
+     * Se cean objetos sobre la Venta para el Main
+     * author Daniel
+     */
     private String cliente;
     private TipoVenta tipo;
     private double subtotal;
@@ -120,9 +123,10 @@ public class Venta {
     private List<Articulo> articulos;
     private String CalcularSubtotal;
     
+    public void CalcularSubtotal() {
+        throw new UnsupportedOperationException("Not supported yet.");
     
     
-
     
-    
+}
 }
