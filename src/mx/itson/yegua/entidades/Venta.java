@@ -112,7 +112,7 @@ public class Venta {
         this.articulos = articulos;
     }
     /**
-     * Se cean objetos sobre la Venta para el Main
+     * Se cean objetos sobre la Venta para el Main con un Encapsulado get/set
      * author Daniel
      */
     private String cliente;
